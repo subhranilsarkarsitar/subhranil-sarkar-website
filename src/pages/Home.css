@@ -2,6 +2,7 @@
     background-image: url('/public/assets/images/home.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: 0 -570px;
 }
 
 .home .text-content {
@@ -25,8 +26,9 @@
 
 @media (max-width: 480px) {
     .home {
-        background-position: 0 200px;
+        background-position: 0 0;
     }
+
     .home .text-content {
         transform: none;
         justify-content: center;
@@ -40,5 +42,29 @@
 
     .home .text-content .subtitle {
         font-size: 55px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .home {
+        background-position: 0 -100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .home {
+        background-position: 0 -400px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+    .home {
+        background-position: 0 -700px;
+    }
+}
+
+@media (min-width: 1601px) and (min-width: 1920px) {
+    .home {
+        background-position: 0 -1000px;
     }
 }

@@ -38,7 +38,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/home" element={<div>Home</div>} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<div>About Me</div>} />
         <Route path="/gharana" element={<div>Gharana</div>} />
         <Route path="/teaching" element={<div>Teaching</div>} />

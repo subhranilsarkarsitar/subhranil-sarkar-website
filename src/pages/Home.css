@@ -1,114 +1,44 @@
-/* Container */
-.container {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Navbar */
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0;
-    font-size: 18px;
-    flex-wrap: wrap;
-  }
-  
-  .nav-item {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 500;
-  }
-  
-  /* Main Content */
-  .main-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.home {
+    background-image: url('/public/assets/images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.home .text-content {
     position: relative;
-    width: 100%;
-  }
-  
-  /* Background Image */
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  /* Text Content */
-  .text-content {
-    z-index: 1;
-    padding: 20px;
-  }
-  
-  .title {
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  .subtitle {
-    font-size: 30px;
-    margin: 10px 0;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      gap: 10px;
+    text-align: left;
+    transform: translateX(35%);
+    top: 10vh;
+}
+
+.home .text-content h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 0;
+}
+
+.home .text-content .subtitle {
+    font-size: 65px;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+@media (max-width: 480px) {
+    .home {
+        background-position: 0 200px;
     }
-  
-    .title {
-      font-size: 36px;
+    .home .text-content {
+        transform: none;
+        justify-content: center;
     }
-  
-    .subtitle {
-      font-size: 24px;
+
+    .home .text-content h1 {
+        font-size: 60px;
+        line-height: 0.9;
+        margin-bottom: 0;
     }
-  }
-  
-  @media (max-width: 480px) {
-    .navbar {
-      gap: 5px;
-      font-size: 16px;
+
+    .home .text-content .subtitle {
+        font-size: 55px;
     }
-  
-    .title {
-      font-size: 28px;
-    }
-  
-    .subtitle {
-      font-size: 20px;
-    }
-  }
-  
+}

@@ -1,0 +1,11 @@
+.sitar-icon {
+    position: relative;
+    fill: #fff;
+    width: 65px;
+    height: 65px;
+    transform: rotate(45deg);
+    margin-right: -20px;
+    top: 10px;
+}
+
+@media

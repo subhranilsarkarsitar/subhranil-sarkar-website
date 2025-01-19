@@ -149,4 +149,8 @@
   .subtitle {
     font-size: 20px;
   }
+
+  .sitar-icon {
+    display: none;
+  }
 }

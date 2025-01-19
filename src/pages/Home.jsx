@@ -6,7 +6,9 @@ import './Home.css'; // Import the external CSS file
 
 const Home = () => {
   return (
-    <div className="home container" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/home.jpg')`}}>
+    <div className="home container" style={{
+      backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/home.jpg')`
+    }}>
       <Navbar />
       <div className="main-content">
         <div className="text-content">

@@ -1,5 +1,6 @@
-import React, { Component } from "react"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react"
+import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
 
 import "./App.css"
@@ -36,7 +37,7 @@ import "./App.css"
 const App = () => {
   return (
     <Router>
-      <Routes>
+      <Switch>
         <Route path="/home" element={<div>Home</div>} />
         <Route path="/about" element={<div>About Me</div>} />
         <Route path="/gharana" element={<div>Gharana</div>} />
@@ -44,7 +45,7 @@ const App = () => {
         <Route path="/events" element={<div>Events</div>} />
         <Route path="/contact" element={<div>Contact</div>} />
         <Route path="/" element={<Home />} /> {/* Default route */}
-      </Routes>
+      </Switch>
     </Router>
   );
 };

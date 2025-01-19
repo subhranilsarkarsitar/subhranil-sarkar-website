@@ -7,6 +7,7 @@ import Gharana from "./pages/Gharana";
 import Teach from "./pages/Teach";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
+import SitarAndUs from "./pages/SitarAndUs";
 
 import "./App.css"
 
@@ -46,6 +47,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gharana" element={<Gharana />} />
+        <Route path="/sitar-and-us" element={<SitarAndUs />} />
         <Route path="/teaching" element={<Teach />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />

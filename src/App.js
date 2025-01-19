@@ -1,5 +1,7 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -31,20 +33,21 @@ class LambdaDemo extends Component {
   }
 }
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
-      </div>
-    )
-  }
-}
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/home" element={<div>Home</div>} />
+        <Route path="/about" element={<div>About Me</div>} />
+        <Route path="/gharana" element={<div>Gharana</div>} />
+        <Route path="/teaching" element={<div>Teaching</div>} />
+        <Route path="/events" element={<div>Events</div>} />
+        <Route path="/contact" element={<div>Contact</div>} />
+        <Route path="/" element={<Home />} /> {/* Default route */}
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
+

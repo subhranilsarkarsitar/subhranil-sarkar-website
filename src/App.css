@@ -54,6 +54,7 @@
 }
 
 .nav-item {
+  transition: all .5s ease;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -62,7 +63,6 @@
 }
 
 .nav-item:hover {
-  transition: .5s ease;
   transform: scale(107%);
   font-weight: 500;
 }

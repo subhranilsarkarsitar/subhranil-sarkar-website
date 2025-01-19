@@ -2,6 +2,11 @@ import React from "react"
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
+import About from "./pages/About";
+import Gharana from "./pages/Gharana";
+import Teach from "./pages/Teach";
+import Events from "./pages/Events";
+import Contact from "./pages/Contact";
 
 import "./App.css"
 
@@ -39,11 +44,11 @@ const App = () => {
     <Router>
       <Switch>
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<div>About Me</div>} />
-        <Route path="/gharana" element={<div>Gharana</div>} />
-        <Route path="/teaching" element={<div>Teaching</div>} />
-        <Route path="/events" element={<div>Events</div>} />
-        <Route path="/contact" element={<div>Contact</div>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gharana" element={<Gharana />} />
+        <Route path="/teaching" element={<Teach />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} /> {/* Default route */}
       </Switch>
     </Router>

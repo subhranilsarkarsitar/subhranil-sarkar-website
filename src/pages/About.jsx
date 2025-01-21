@@ -8,10 +8,10 @@ const About = () => {
     return (
       <div className="container aboutme">
         <Navbar />
-        <div className="aboutme-container">
-          <div className="aboutme-content text-content">
-            <h1 className="aboutme-title">About Me</h1>
-            <p className="aboutme-description">
+        <div className="main-content page-content">
+          <div className="text-content">
+            <h1 className="title">About Me</h1>
+            <p className="description">
               Subhranil Sarkar is regarded as one of the most promising Sitar-players of the younger generation.
               He belongs to Sitar's first family, the Etawah Gharana (also known as the Imdadkhani Gharana).
               He was initiated into music at the age of 6 by Sri Bimal Chatterjee of the same Gharana.
@@ -33,13 +33,13 @@ const About = () => {
               is to have accompanied the great Ustad Shahid Parvez Khan in concerts on the sitar.
             </p>
           </div>
-          <div className="aboutme-image-container">
+          <div className="image-container">
             <img
               src={`${process.env.PUBLIC_URL}/assets/images/aboutme.jpg`}
               alt="Subhranil Sarkar with his sitar"
               className="aboutme-image"
             />
-            <a className="presskit" href={`${process.env.PUBLIC_URL}/assets/downloads/subhranil-sarkar-presskit.zip`}>Download Press Kit</a>
+            <a className="presskit" href={`${process.env.PUBLIC_URL}/assets/downloads/subhranil-sarkar-presskit.zip`}>Download Press-Kit</a>
           </div>
         </div>
       </div>

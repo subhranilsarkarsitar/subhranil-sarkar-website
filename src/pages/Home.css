@@ -18,6 +18,11 @@
     margin-bottom: 0;
 }
 
+.home .main-content {
+    align-items: center;
+    margin-left: 80px;
+}
+
 .home .text-content .subtitle {
     font-size: 65px;
     font-weight: 300;
@@ -66,5 +71,12 @@
 @media (min-width: 1601px) and (min-width: 1920px) {
     .home {
         background-position: 0 -1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content.main-content {
+        margin-left: 0;
+        margin-top: 150px;
     }
 }

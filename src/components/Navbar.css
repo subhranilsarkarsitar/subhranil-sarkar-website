@@ -1,0 +1,103 @@
+.collapsible-menu label {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.collapsible-menu .menu-content {
+    transition: max-height .5s ease;
+}
+
+input#menu {
+    display: none;
+}
+
+.navbar label {
+    display: none;
+}
+
+.collapsible-menu input:checked +label {
+    content: '⨯';
+}
+
+/* Toggle */
+.collapsible-menu input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 20px 0;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .nav-item {
+    transition: all .5s ease;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    margin: 0 6px;
+  }
+  
+  .nav-item:hover {
+    transform: scale(107%);
+    font-weight: 500;
+  }
+
+@media (max-width: 768px) {
+    .collapsible-menu label {
+        display: block;
+    }
+
+    .collapsible-menu .menu-content {
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) {
+    .collapsible-menu label {
+        display: none;
+    }
+    
+    /* Toggle Effect */
+    input:checked ~ label {
+        content: '⨯';
+    }
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .menu-content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar .menu-content {
+      display: flex;
+      gap: 5px;
+      font-size: 16px;
+    }
+  
+    .sitar-icon {
+      display: none;
+    }
+  }
+  

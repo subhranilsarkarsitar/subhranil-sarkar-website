@@ -75,8 +75,9 @@
 }
 
 @media (max-width: 768px) {
-    .main-content.main-content {
+    .home .main-content {
         margin-left: 0;
         margin-top: 150px;
+        align-items: flex-start;
     }
 }

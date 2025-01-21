@@ -1,0 +1,86 @@
+.aboutme.container {
+    background-color: #606060;
+}
+
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0;
+    color: #ffffff;
+  }
+  
+  @media (min-width: 768px) {
+    .aboutme-container {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+    }
+  }
+  
+  .aboutme-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .aboutme-content {
+      margin-bottom: 0;
+    }
+
+    .aboutme-title {
+        font-size: 3.5em;
+    }
+  }
+  
+  .aboutme-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .aboutme-title {
+        font-size: 3.5em;
+    }
+  }
+  
+  .aboutme-description,
+  .aboutme-details,
+  .aboutme-performers {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .aboutme-image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  a.presskit {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .aboutme-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .aboutme-image {
+      max-width: 500px;
+    }
+  }
+  

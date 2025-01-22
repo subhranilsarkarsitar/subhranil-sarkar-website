@@ -12,7 +12,7 @@ const About = () => {
           <div className="text-content">
             <h1 className="title">About Me</h1>
             <p className="description">
-              Subhranil Sarkar is regarded as one of the most promising Sitar-players of the younger generation.
+              Subhranil Sarkar is regarded as one of the most prominent Sitar-players of the younger generation.
               He belongs to Sitar's first family, the Etawah Gharana (also known as the Imdadkhani Gharana).
               He was initiated into music at the age of 6 by Sri Bimal Chatterjee of the same Gharana.
               In the year 2000, Subhranil was accepted as a disciple by the great Sitar maestro

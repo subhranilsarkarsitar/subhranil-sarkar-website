@@ -19,22 +19,40 @@ const Gharana = () => {
               <div className="text-content">
                 <h1 className="title">Gharana</h1>
                 <p className="description">
-                  The Etawah gharana is a North Indian school of sitar and surbahar
-                  music and named after a small town close to Agra where Imdad Khan
-                  (1848–1920) lived. It is also known as Imdadkhani gharana in the
-                  honour of its founder, Imdad Khan.
+                  Subhranil Sarkar is a distinguished torchbearer of the Etawah Gharana,
+                  also known as the Imdadkhani Gharana, one of the most revered schools of Hindustani classical music.
+                  This illustrious tradition, named after its visionary founder Ustad Imdad Khan in the 19th century,
+                  originated in the town of Etawah, Uttar Pradesh. Ustad Imdad Khan, a virtuoso of the sitar and surbahar,
+                  pioneered a style that harmonized technical brilliance with profound artistic expression,
+                  establishing a legacy that continues to resonate through generations.  
                 </p>
                 <p className="description">
-                  The gharana's achievements include the development of the Surbahar,
-                  major structural changes to both the sitar and surbahar, and the
-                  creation of the instrumental style known as the gayaki ang (vocal
-                  style performed on sitar) by Vilayat Khan. This style of sitar is now
-                  known as the Vilayatkhani sitar.
+                  The essence of the Etawah Gharana lies in its unparalleled mastery of the intricate interplay
+                  between the left and right hand, a technique profoundly influenced by the lyrical grace of Khayal gayaki.
+                  By refining the left-hand techniques, the gharana enabled the seamless execution of complex,
+                  Khayal-inspired movements on string instruments. Its signature Gayaki Ang seeks to
+                  evoke the expressive nuances of vocal music, imbuing the sitar and surbahar with a voice-like fluidity.
+                  This approach, rich with meend (gliding notes), gamak (oscillations), and murki (ornamented flourishes),
+                  creates a sublime blend of precision and emotion, offering a deeply immersive and soulful auditory experience.  
                 </p>
                 <p className="description">
-                  Living performers of the family include Shahid Parvez, Shujaat Khan,
-                  Nishat Khan, Irshad Khan, Wajahat Khan, Hidayat Khan, and Zila Khan,
-                  the first female performer of this gharana.
+                  The gharana has given the world some of the most extraordinary artists who have elevated its traditions
+                  to unparalleled heights. Ustad Vilayat Khan, a legendary figure, revolutionized sitar artistry with
+                  his refinement of the Gayaki Ang, bringing global recognition to the instrument.
+                  Ustad Shahid Parvez Khan, a contemporary maestro, is celebrated for his unparalleled technical command
+                  and deeply emotive performances. Pandit Budhaditya Mukherjee, another eminent exponent,
+                  is renowned for his profound virtuosity on both the sitar and surbahar,
+                  continuously expanding the horizons of the art form.  
+                </p>
+                <p className="description">
+                  Other luminaries such as Ustad Enayat Khan and Ustad Imrat Khan have also made monumental contributions
+                  to the gharana's legacy. Their unwavering commitment to preserving its purity while embracing evolving
+                  musical landscapes has ensured that the Etawah Gharana remains both vibrant and relevant in the modern era.  
+                </p>
+                <p className="description">
+                  The Etawah Gharana embodies a harmonious confluence of discipline, innovation, and spirituality.
+                  Its music transcends time, encapsulating the very essence of Hindustani classical tradition
+                  while offering audiences an experience that is both transformative and timeless.
                 </p>
               </div>
             </div>

@@ -4,15 +4,15 @@ import Navbar from "../components/Navbar";
 
 const SitarAndUs = () => {
     return (
-        <div className="container">
-            <Navbar />
-            <div className="main-content">
-              <div className="text-content">
-                <h1 className="title">Sitar & Us</h1>
-                <h2 className="subtitle">Coming Soon...</h2>
-              </div>
-            </div>
+      <div className="container sitar">
+        <Navbar />
+        <div className="main-content page-content">
+          <div className="text-content">
+            <h1 className="title">Sitar & Us</h1>
+            <p className="description">Coming Soon...</p>
           </div>
+        </div>
+      </div>
     );
 }
 

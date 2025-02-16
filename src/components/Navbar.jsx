@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'; // Import Link component from React Router
 
-// import SitarIcon from './SitarIcon';
+import SitarIcon from './SitarIcon';
 
 import './Navbar.css';
 // import Footer from "./Footer";
@@ -27,7 +27,6 @@ const Navbar = ({ open }) => {
         <nav role="navigation">
             <div id="menuToggle">
               <input type="checkbox" />
-                {/* <SitarIcon /> */}
                 <span></span>
                 <span></span>
                 <span></span>
@@ -40,10 +39,11 @@ const Navbar = ({ open }) => {
                     <li><Link className="nav-item" to="/teaching">Teaching</Link></li>
                     <li><Link className="nav-item" to="/events">Events</Link></li>
                     <li><Link className="nav-item" to="/contact">Contact</Link></li>
-                    
+                    <SitarIcon />
                     {/* <Footer /> */}
                 </ul>
            </div>
+           <SitarIcon />
         </nav>
     );
 }

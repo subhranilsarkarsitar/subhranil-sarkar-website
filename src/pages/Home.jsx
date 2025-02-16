@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 
 import './Home.css'; // Import the external CSS file
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           <h2 className="subtitle">Sitar</h2>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

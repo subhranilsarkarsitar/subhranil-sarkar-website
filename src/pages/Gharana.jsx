@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import "./Gharana.css";
+import Footer from "../components/Footer";
 
 const Gharana = () => {
     return (
@@ -55,7 +56,8 @@ const Gharana = () => {
                 </p>
               </div>
             </div>
-          </div>
+            <Footer />
+        </div>
     );
 }
 

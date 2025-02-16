@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const SitarAndUs = () => {
     return (
@@ -12,6 +13,7 @@ const SitarAndUs = () => {
             <p className="description">Coming Soon...</p>
           </div>
         </div>
+        <Footer />
       </div>
     );
 }

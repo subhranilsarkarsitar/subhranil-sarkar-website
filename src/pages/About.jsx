@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import "./About.css";
 
@@ -42,6 +43,7 @@ const About = () => {
             <a className="presskit" href={`${process.env.PUBLIC_URL}/assets/downloads/subhranil-sarkar-presskit.zip`}>Download Press-Kit</a>
           </div>
         </div>
+        <Footer />
       </div>
     );
 }

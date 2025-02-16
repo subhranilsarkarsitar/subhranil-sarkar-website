@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Events = () => {
     return (
@@ -12,6 +13,7 @@ const Events = () => {
             <p className="description">Coming Soon...</p>
           </div>
         </div>
+        <Footer />
       </div>
     );
 }

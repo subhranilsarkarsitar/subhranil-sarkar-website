@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Teach = () => {
     return (
@@ -12,7 +13,8 @@ const Teach = () => {
                 <h2 className="subtitle">Coming Soon...</h2>
               </div>
             </div>
-          </div>
+            <Footer />
+        </div>
     );
 }
 

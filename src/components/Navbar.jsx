@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom'; // Import Link component from React Router
 
-import SitarIcon from './SitarIcon';
+// import SitarIcon from './SitarIcon';
 
 import './Navbar.css';
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const Navbar = ({ open }) => {
     // return (

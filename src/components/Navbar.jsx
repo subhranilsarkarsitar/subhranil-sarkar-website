@@ -34,10 +34,10 @@ const Navbar = ({ open }) => {
                     <li><Link className="nav-item" to="/home">Home</Link></li>
                     <li><Link className="nav-item" to="/about">About Me</Link></li>
                     <li><Link className="nav-item" to="/gharana">Gharana</Link></li>
-                    <li><Link className="nav-item" to="/sitar-and-us">Sitar & Us</Link></li>
-                    <li><Link className="nav-item" to="/sitar-and-us">Baithaki Movement</Link></li>
+                    <li><Link className="nav-item" to="/sitar-and-us">Sangeet & Us</Link></li>
+                    {/* <li><Link className="nav-item" to="/sitar-and-us">Baithaki Movement</Link></li> */}
                     <li><Link className="nav-item" to="/teaching">Teaching</Link></li>
-                    <li><Link className="nav-item" to="/events">Events</Link></li>
+                    {/* <li><Link className="nav-item" to="/events">Events</Link></li> */}
                     <li><Link className="nav-item" to="/contact">Contact</Link></li>
                     <SitarIcon />
                     {/* <Footer /> */}

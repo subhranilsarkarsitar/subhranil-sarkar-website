@@ -87,6 +87,14 @@
   margin: 10px 0;
 }
 
+h3 {
+  margin-top: 35px;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .title {

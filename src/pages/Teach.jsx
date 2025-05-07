@@ -12,7 +12,7 @@ const Teach = () => {
         <div className="main-content page-content">
           <div className="image-container">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/teaching.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/teaching2.png`}
               alt="Sitar performance of Subhranil Sarkar and Ustad Shahid Parvez Khan"
               className="gharana-image"
             />

@@ -2,7 +2,8 @@
     background-color: #606060;
 }
 
-a.presskit {
+a.presskit,
+a.bio {
   color: #fff;
   font-weight: 600;
   text-decoration: none;

@@ -40,6 +40,7 @@ const About = () => {
               alt="Subhranil Sarkar with his sitar"
               className="aboutme-image"
             />
+            <a className="bio" href={`${process.env.PUBLIC_URL}/assets/downloads/Subhranil%20Sarkar.pdf`}>Download Bio</a>
             <a className="presskit" href={`${process.env.PUBLIC_URL}/assets/downloads/subhranil-sarkar-presskit.zip`}>Download Press-Kit</a>
           </div>
         </div>

@@ -11,7 +11,7 @@ const About = () => {
         <Navbar />
         <div className="main-content page-content">
           <div className="text-content">
-            <h1 className="title">About Me</h1>
+            <h1 className="title">Bio</h1>
             <p className="description">
               Subhranil Sarkar is regarded as one of the most prominent Sitar-players of the younger generation.
               He belongs to Sitar's first family, the Etawah Gharana (also known as the Imdadkhani Gharana).

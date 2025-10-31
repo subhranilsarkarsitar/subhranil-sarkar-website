@@ -32,7 +32,7 @@ const Navbar = ({ open }) => {
                 <span></span>
                 <ul id="menu">
                     <li><Link className="nav-item" to="/home">Home</Link></li>
-                    <li><Link className="nav-item" to="/about">About Me</Link></li>
+                    <li><Link className="nav-item" to="/about">Bio</Link></li>
                     <li><Link className="nav-item" to="/gharana">Gharana</Link></li>
                     <li><Link className="nav-item" to="/sitar-and-us">Sangeet & Us</Link></li>
                     {/* <li><Link className="nav-item" to="/sitar-and-us">Baithaki Movement</Link></li> */}

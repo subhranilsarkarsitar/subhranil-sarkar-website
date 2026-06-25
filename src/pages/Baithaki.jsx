@@ -24,9 +24,9 @@ const Baithaki = () => {
               Follow us on social media for the latest updates
             </p>
             <p className="description">
-              <a href="https://www.instagram.com/baithaki.movement" target="_blank">Instagram</a>
+              <a href="https://www.instagram.com/baithaki.movement" target="_blank" rel="noreferrer">Instagram</a>
               <br />
-              <a href="https://www.facebook.com/profile.php?id=100093679717387" target="_blank">Facebook</a>
+              <a href="https://www.facebook.com/profile.php?id=100093679717387" target="_blank" rel="noreferrer">Facebook</a>
             </p>
           </div>
         </div>

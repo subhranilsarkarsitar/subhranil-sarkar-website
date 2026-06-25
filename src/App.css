@@ -95,6 +95,17 @@ h2 {
   margin-top: 45px;
 }
 
+.page-content a,
+.page-content a:visited,
+.page-content a:active {
+  color: #fff;
+  font-weight: 800;
+}
+
+.page-content a:hover {
+  color: #eee;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   .title {

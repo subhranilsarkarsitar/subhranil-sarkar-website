@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            Copyright © 2025 - Subhranil Sarkar. All rights reserved.
+            Copyright © 2026 - Subhranil Sarkar. All rights reserved.
         </footer>
     );
 }

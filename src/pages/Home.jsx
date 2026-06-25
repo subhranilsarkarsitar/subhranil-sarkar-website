@@ -14,7 +14,7 @@ const Home = () => {
       <div className="main-content">
         <div className="text-content">
           <h1 className="title">Subhranil<br />Sarkar</h1>
-          <h2 className="subtitle">Sitar</h2>
+          <h2 className="subtitle">Sitarist & Educator</h2>
         </div>
       </div>
       <Footer />

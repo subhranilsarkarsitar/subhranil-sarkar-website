@@ -1,7 +1,7 @@
 /* Contact tiles, modelled on the contact list of raginibyhindolita.com */
 .social-tiles {
   --tile-line: rgba(255, 255, 255, .14);
-  --tile-accent: #d6b48f;
+  --tile-accent: #d8d8d8;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -38,7 +38,7 @@
   stroke-linejoin: round;
   transition: transform .25s, stroke .25s;
 }
-.social-tiles a:hover .social-icon { transform: translateY(-2px); stroke: #f4f0e8; }
+.social-tiles a:hover .social-icon { transform: translateY(-2px); stroke: #fff; }
 .social-label {
   font: 500 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: .22em;
@@ -47,7 +47,7 @@
 }
 .social-value {
   font: 19px/1.3 "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
-  color: #f4f0e8;
+  color: #fff;
   overflow-wrap: break-word;
 }
 

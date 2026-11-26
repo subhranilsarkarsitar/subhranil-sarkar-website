@@ -1,6 +1,6 @@
 /* Contact: modelled on the closing section of raginibyhindolita.com, with Subhranil's photo */
 .contact { text-align: center; }
-.contact .eyebrow { color: #d6b48f; }
+.contact .eyebrow { color: #d8d8d8; }
 
 .contact-top {
   max-width: 1080px;
@@ -28,13 +28,13 @@
   content: "";
   position: absolute;
   inset: 14px -14px -14px 14px;
-  border: 1px solid rgba(214, 180, 143, .55);
+  border: 1px solid rgba(255, 255, 255, .35);
 }
 
 .contact .title { font-size: clamp(48px, 7vw, 90px); }
 .contact-intro {
   font: italic 19px/1.6 "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
-  color: #dcc9c4;
+  color: #e6e6e6;
   max-width: 470px;
   margin: 0;
 }

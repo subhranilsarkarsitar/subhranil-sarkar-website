@@ -1,52 +1,48 @@
-.contact .main-content {
-    align-items: center;
-    justify-content: center;
+/* Contact: modelled on the closing section of raginibyhindolita.com, with Subhranil's photo */
+.contact { text-align: center; }
+.contact .eyebrow { color: #d6b48f; }
+
+.contact-top {
+  max-width: 1080px;
+  margin: 0 auto 72px;
+  display: grid;
+  grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+  gap: clamp(40px, 7vw, 110px);
+  align-items: center;
+  text-align: left;
 }
 
-.contact .image-container {
-    margin-top: 0;
+.contact-photo { margin: 0; position: relative; }
+.contact-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
+  filter: saturate(.85);
+  position: relative;
+  z-index: 1;
+}
+/* thin offset frame */
+.contact-photo::after {
+  content: "";
+  position: absolute;
+  inset: 14px -14px -14px 14px;
+  border: 1px solid rgba(214, 180, 143, .55);
 }
 
-.contact-links {
-    margin-top: 15px;
+.contact .title { font-size: clamp(48px, 7vw, 90px); }
+.contact-intro {
+  font: italic 19px/1.6 "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
+  color: #dcc9c4;
+  max-width: 470px;
+  margin: 0;
 }
 
-.contact-links a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    margin: 10px 0;
-    transition: all .5s ease;
-}
+.contact-tiles { --tile-cols: 5; }
 
-.contact-links a:hover {
-    transform: scale(110%);
-}
-
-.contact-links a svg {
-    margin-right: 10px;
-    position: relative;
-    top: 4px;
-    width: 20px;
-    height: 20px;
-}
-
-.fb path {
-    fill: #1877F2;
-}
-
-.ig path {
-    fill: #e1306c;
-}
-
-.yt path {
-    fill: #FF0000;
-}
-
-.wa path {
-    fill: #25d366;
-}
-
-.msg path {
-    fill: #fff;
+@media (max-width: 850px) {
+  .contact-top { grid-template-columns: 1fr; text-align: center; margin-bottom: 56px; }
+  .contact-photo { width: min(100%, 320px); margin: 0 auto 14px; }
+  .contact-intro { margin: 0 auto; }
 }

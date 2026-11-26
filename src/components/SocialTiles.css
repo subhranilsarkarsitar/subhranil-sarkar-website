@@ -1,0 +1,78 @@
+/* Contact tiles, modelled on the contact list of raginibyhindolita.com */
+.social-tiles {
+  --tile-line: rgba(255, 255, 255, .14);
+  --tile-accent: #d6b48f;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1080px;
+  display: grid;
+  grid-template-columns: repeat(var(--tile-cols, 4), 1fr);
+  border-top: 1px solid var(--tile-line);
+}
+.social-tiles li { border-right: 1px solid var(--tile-line); }
+.social-tiles li:last-child { border-right: 0; }
+.social-tiles a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 34px 16px;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color .25s;
+}
+.social-tiles a:hover { background: rgba(255, 255, 255, .04); }
+.social-tiles a:focus-visible { outline: 2px solid var(--tile-accent); outline-offset: -2px; }
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+  fill: none;
+  stroke: var(--tile-accent);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .25s, stroke .25s;
+}
+.social-tiles a:hover .social-icon { transform: translateY(-2px); stroke: #f4f0e8; }
+.social-label {
+  font: 500 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--tile-accent);
+}
+.social-value {
+  font: 19px/1.3 "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
+  color: #f4f0e8;
+  overflow-wrap: break-word;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 1000px) {
+  .social-tiles { grid-template-columns: repeat(2, 1fr); }
+  .social-tiles li { border-bottom: 1px solid var(--tile-line); }
+  .social-tiles li:nth-child(2n) { border-right: 0; }
+  .social-tiles li:last-child:nth-child(odd) { grid-column: 1 / -1; border-right: 0; }
+}
+
+@media (max-width: 520px) {
+  .social-tiles a { padding: 26px 12px; }
+  .social-value { font-size: 17px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-tiles a, .social-icon { transition: none; }
+}

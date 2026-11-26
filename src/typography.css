@@ -22,7 +22,7 @@
 }
 
 /* Sub-headings inside the prose */
-.container:not(.home) .text-content h2 {
+.container:not(.home) .text-content h2:not(.title) {
   font: 400 clamp(26px, 2.6vw, 34px)/1.15 var(--serif);
   letter-spacing: -.02em;
   margin: 54px 0 14px;
@@ -69,12 +69,13 @@
   text-transform: uppercase;
 }
 
-/* Footer */
-.container:not(.home) footer {
-  font: 10px var(--sans);
-  letter-spacing: .12em;
+/* Small uppercase label above a heading */
+.eyebrow {
+  font: 500 10px/1.4 var(--sans);
+  letter-spacing: .24em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: #c9a56c;
+  margin: 0 0 16px;
 }
 
 @media (max-width: 520px) {

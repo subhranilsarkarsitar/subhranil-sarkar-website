@@ -1,17 +1,14 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 import "./About.css";
 
 const About = () => {
     return (
-      <div className="container aboutme">
-        <Navbar />
+    <section id="about" className="container aboutme">
         <div className="main-content page-content">
           <div className="text-content">
-            <h1 className="title">Bio</h1>
+            <h2 className="title">Bio</h2>
             <p className="description">
               Subhranil Sarkar is regarded as one of the most prominent Sitar-players of the younger generation.
               He belongs to Sitar's first family, the Etawah Gharana (also known as the Imdadkhani Gharana).
@@ -44,8 +41,7 @@ const About = () => {
             <a className="presskit" href={`${process.env.PUBLIC_URL}/assets/downloads/subhranil-sarkar-presskit.zip`}>Download Press-Kit</a>
           </div>
         </div>
-        <Footer />
-      </div>
+      </section>
     );
 }
 

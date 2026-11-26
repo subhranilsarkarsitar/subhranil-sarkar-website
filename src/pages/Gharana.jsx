@@ -1,14 +1,11 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
 
 import "./Gharana.css";
-import Footer from "../components/Footer";
 
 const Gharana = () => {
     return (
-        <div className="container gharana">
-            <Navbar />
+    <section id="gharana" className="container gharana">
             <div className="main-content page-content">
               <div className="image-container">
                 <img
@@ -18,7 +15,7 @@ const Gharana = () => {
                 />
               </div>
               <div className="text-content">
-                <h1 className="title">Gharana</h1>
+                <h2 className="title">Gharana</h2>
                 <p className="description">
                   Subhranil Sarkar is a distinguished torchbearer of the Etawah Gharana, also known as the Imdadkhani Gharana,
                   one of the most revered schools of Hindustani classical music. This illustrious tradition, named after
@@ -56,8 +53,7 @@ const Gharana = () => {
                 </p>
               </div>
             </div>
-            <Footer />
-        </div>
+        </section>
     );
 }
 

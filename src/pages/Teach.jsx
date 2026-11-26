@@ -1,14 +1,11 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 import './Teach.css';
 
 const Teach = () => {
   return (
-    <div className="container teaching">
-        <Navbar />
+    <section id="teaching" className="container teaching">
         <div className="main-content page-content">
           <div className="image-container">
             <img
@@ -18,7 +15,7 @@ const Teach = () => {
             />
           </div>
           <div className="text-content">
-            <h1 className="title">The Art of Teaching—Subhranil’s Way</h1>
+            <h2 className="title">The Art of Teaching—Subhranil’s Way</h2>
             <p className="description">
               In a time when learning is often reduced to <strong>55-minute time-boxed sessions</strong>, checklists,
               and faster outcome-driven classes, <strong>Shri Subhranil Sarkar’s approach to teaching
@@ -64,8 +61,7 @@ const Teach = () => {
             </p>
           </div>
         </div>
-        <Footer />
-    </div>
+    </section>
   );
 }
 

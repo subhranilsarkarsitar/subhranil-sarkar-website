@@ -1,12 +1,9 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const SitarAndUs = () => {
   return (
-    <div className="container sitar-n-us">
-        <Navbar />
+    <section id="sitar-and-us" className="container sitar-n-us">
         <div className="main-content page-content">
           <div className="image-container">
             <img
@@ -16,7 +13,7 @@ const SitarAndUs = () => {
             />
           </div>
           <div className="text-content">
-            <h1 className="title">Sangeet & Us</h1>
+            <h2 className="title">Sangeet & Us</h2>
             <p className="description">
               Sangeet and Us is a celebration of the timeless bond between the seeker and sound, between the soul
               and the surging river of melody.
@@ -33,7 +30,7 @@ const SitarAndUs = () => {
             </p>
 
 
-            <h2>Strings & Us</h2>
+            <h3>Strings & Us</h3>
             <p className="description">
               <strong>Strings & Us</strong> was the seed from which this musical tree first grew, ideated by Shri Subhranil Sarkar
               during the early Orkut era and blossoming into a vibrant Facebook group in 2010.
@@ -42,7 +39,7 @@ const SitarAndUs = () => {
               understanding — weaving bonds through the shared language of strings.
             </p>
 
-            <h2>Sitar & Us</h2>
+            <h3>Sitar & Us</h3>
             <p className="description">
               A divine flowering of this timeless vision, <strong>Sitar & Us</strong> is an ode to the
               sitar — that celestial voice of the soul, whispering ancient secrets through its resonant strings.
@@ -66,8 +63,7 @@ const SitarAndUs = () => {
             </p>
           </div>
         </div>
-        <Footer />
-    </div>
+    </section>
   );
 }
 

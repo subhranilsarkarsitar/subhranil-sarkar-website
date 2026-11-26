@@ -18,14 +18,14 @@
 }
 .site-nav.scrolled { border-color: rgba(241, 235, 225, .12); height: 68px; }
 
-/* Home: let the photo show through until the page scrolls */
-.home .site-nav:not(.scrolled) {
+/* At the top of the one-page site the bar sits over the home photo: keep it clear */
+.onepage .site-nav:not(.scrolled) {
   background: transparent;
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
 }
 
-/* Pushes page content below the fixed bar (the page already has 40px padding) */
+/* Pushes content below the fixed bar on stand-alone pages (Events) */
 .nav-spacer { height: 38px; flex: none; }
 
 .site-nav .brand {
@@ -133,7 +133,7 @@
   .site-nav .links a { display: block; padding: 10px 0; width: 100%; border-bottom: 0; }
   .site-nav .links a.active { color: #e2c592; }
   .site-nav .links.open { display: flex; }
-  .home .site-nav:has(.links.open) { background: rgba(16, 13, 10, .98); }
+  .onepage .site-nav:has(.links.open) { background: rgba(16, 13, 10, .98); }
   .nav-spacer { height: 26px; }
 }
 
@@ -141,3 +141,5 @@
   .menu-icon-sitar { animation: none; }
   .site-nav, .menu-icon-sitar, .menu-icon-close { transition: none; }
 }
+
+.onepage .nav-spacer { display: none; }

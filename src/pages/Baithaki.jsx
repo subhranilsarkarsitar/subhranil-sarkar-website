@@ -1,12 +1,11 @@
 import React from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import SocialTiles from "../components/SocialTiles";
+
 
 const Baithaki = () => {
   return (
-    <div className="container baithaki">
-        <Navbar />
+    <section id="baithaki" className="container baithaki">
         <div className="main-content page-content">
           <div className="image-container">
             <img
@@ -16,22 +15,20 @@ const Baithaki = () => {
             />
           </div>
           <div className="text-content">
-            <h1 className="title">Baithaki Movement</h1>
+            <h2 className="title">Baithaki Movement</h2>
             <p className="description">
               The Baithaki Movement is a back to the roots series brought to you by sitarist Subhranil Sarkar.
             </p>
             <p className="description">
               Follow us on social media for the latest updates
             </p>
-            <p className="description">
-              <a href="https://www.instagram.com/baithaki.movement" target="_blank" rel="noreferrer">Instagram</a>
-              <br />
-              <a href="https://www.facebook.com/profile.php?id=100093679717387" target="_blank" rel="noreferrer">Facebook</a>
-            </p>
+            <SocialTiles className="baithaki-tiles" items={[
+              { icon: "instagram", label: "Instagram", value: "@baithaki.movement", href: "https://www.instagram.com/baithaki.movement" },
+              { icon: "facebook", label: "Facebook", value: "Baithaki Movement", href: "https://www.facebook.com/profile.php?id=100093679717387" },
+            ]} />
           </div>
         </div>
-        <Footer />
-    </div>
+    </section>
   );
 }
 

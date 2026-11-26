@@ -27,9 +27,9 @@ const Contact = () => {
           <p className="eyebrow">Stay connected</p>
           <h2 className="title" id="contact-title">Contact</h2>
           <p className="contact-intro">For concerts, lessons and enquiries, reach out through any of these.</p>
+          <SocialTiles items={CONTACTS} className="contact-tiles" />
         </div>
       </div>
-      <SocialTiles items={CONTACTS} className="contact-tiles" />
     </section>
   );
 };

@@ -26,6 +26,16 @@ html { scroll-behavior: smooth; }
   letter-spacing: .12em;
   text-transform: uppercase;
 }
+.site-footer a {
+  color: #fff;
+  text-transform: none;
+  letter-spacing: .06em;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, .4);
+  text-underline-offset: 3px;
+}
+.site-footer a:hover { text-decoration-color: #fff; }
+.site-footer a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 .container .site-footer { background: transparent; border: 0; }   /* stand-alone Events page */
 
 /* Baithaki: two logo tiles under the text */

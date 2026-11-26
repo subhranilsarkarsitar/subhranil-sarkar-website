@@ -11,6 +11,7 @@ import SitarAndUs from "./pages/SitarAndUs";
 import Baithaki from "./pages/Baithaki";
 
 import "./App.css"
+import "./typography.css"
 
 const App = () => {
   return (

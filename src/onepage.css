@@ -14,9 +14,6 @@ html { scroll-behavior: smooth; }
 }
 .onepage .main-content.page-content { margin-top: 0; padding-top: 0; }
 
-/* Neighbouring sections get their own deep tones so they don't run together */
-.onepage .sitar-n-us { background-color: #1b1410; }
-
 /* Footer (once, at the very end) */
 .site-footer {
   margin: 0;
